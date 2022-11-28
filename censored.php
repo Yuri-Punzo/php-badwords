@@ -9,5 +9,4 @@ echo "Frase: " . $frase . " Lunghezza: " . strlen($frase) . "<br>";
 
 $newFrase = str_replace($badword, "***", $frase);
 
-echo "Frase censurata: " . $newFrase . " Lunghezza: " . strlen($newFrase)
-?>
+echo "Frase censurata: " . $newFrase . " Lunghezza: " . strlen($newFrase);
